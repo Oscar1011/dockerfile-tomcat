@@ -35,7 +35,7 @@ RUN cat /locale.md | xargs -i /usr/glibc-compat/bin/localedef -i {} -f UTF-8 {}.
 ENV USER_LOGIN_SHELL="/bin/bash" \
     USER_LOGIN_SHELL_FALLBACK="/bin/ash"
 
-EXPOSE 22
+EXPOSE 22 8080
 
 WORKDIR /tomcat
 
