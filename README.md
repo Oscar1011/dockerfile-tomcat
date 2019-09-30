@@ -10,5 +10,5 @@
 
 ## 使用示例
 ```
-docker run -d -p 22:22 -p 8080:8080 -e ENABLE_SSH=true -e PASSWORD=<your password> dockerbilltang/tomcat
+docker run -d -p 22:22 -p 8080:8080 -e ENABLE_SSH=true -e PASSWORD=<your password>  --name=tomcat dockerbilltang/tomcat
 ```
