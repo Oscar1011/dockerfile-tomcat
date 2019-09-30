@@ -32,7 +32,7 @@ else
 fi
 
 if [[ "${ENABLE_SSH}" == "true" ]]; then
-   exec /usr/sbin/sshd
+   /usr/sbin/sshd
 fi
 
 exec /tomcat/bin/catalina.sh run
